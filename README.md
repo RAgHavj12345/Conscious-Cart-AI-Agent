@@ -1,42 +1,60 @@
 # 🛒 Conscious Cart – AI-Powered Eco Product Analyzer
 
-Conscious Cart helps consumers make **eco-conscious shopping decisions** using AI. Simply enter a **product name or URL**, and the tool will analyze its **environmental impact** and suggest **sustainable alternatives** — all powered by **Google Gemini LLM** and **LangGraph**.
+**Conscious Cart** empowers consumers to make **eco-conscious shopping decisions** using AI. Just enter a **product name or URL**, and the tool will analyze its **environmental impact** and suggest **sustainable alternatives** — powered by **Google Gemini** and **LangGraph**.
 
 ---
 
-## 🌿 What It Does
+## 🌿 Key Features
 
 - 🔍 Accepts product names or URLs (e.g., Amazon links)
-- 🕸️ Scrapes product pages or generates hypothetical details
-- 🧠 Uses Gemini to:
-  - Create product summaries
-  - Perform sustainability analysis
-  - Recommend eco-friendly alternatives if needed
-- ✅ Gives final recommendation:
-  - `RECOMMENDED`, `NOT RECOMMENDED`, or `NEUTRAL`
-- 🛠 Built with LangGraph (multi-step agent architecture)
+- 🕸️ Scrapes real product data or generates hypothetical product details
+- 🧠 Uses **Google Gemini** to:
+  - Summarize product characteristics
+  - Evaluate sustainability and eco-impact
+  - Recommend greener alternatives (if applicable)
+- 🧭 Final recommendation categories:
+  - ✅ `RECOMMENDED`
+  - ⚠️ `NOT RECOMMENDED`
+  - 🤔 `NEUTRAL`
+- 🛠 Built with **LangGraph** for multi-step agent-based processing
 
 ---
 
-## 🧠 Example Output
+## 🧪 Sample Interaction
 
+**Welcome to Conscious Cart!** 🛒  
+*Please enter a product URL or name to begin:*
 
-Welcome to Conscious Cart! 🛒 Please enter a product URL or a product name: GHAR SOAPS MAGIC SOAP 100 GM
+> **Input:** `GHAR SOAPS MAGIC SOAP 100 GM`
 
---- 🔬 Analyzing environmental impact... ---
---- ✨ Generating final recommendation... ---
+---
 
-=
-      Final Recommendation
-=
+### 🔬 Environmental Analysis In Progress...
 
-## Product Analysis 📉
+### ✨ Generating Final Recommendation...
 
-The GHAR SOAPS Magic Soap presents a mixed environmental profile...
-NOT RECOMMENDED
+---
 
-## Better, Eco-Friendly Alternatives 🌱
+## ✅ Final Recommendation
 
-1. **Dr. Bronner's Castile Soap**
-2. **Ethique Solid Bars**
-3. **Homemade Soap with Olive Oil & Lye**
+### Product Analysis 📉
+
+**GHAR SOAPS Magic Soap** presents a mixed environmental profile. While it may use some natural ingredients, its production methods, packaging, and sourcing raise sustainability concerns.
+
+**Verdict:** ⚠️ **NOT RECOMMENDED**
+
+---
+
+## 🌱 Recommended Eco-Friendly Alternatives
+
+1. **Dr. Bronner's Pure-Castile Bar Soap**
+   - Certified organic, fair-trade, biodegradable packaging
+2. **Ethique Solid Soap Bars**
+   - Zero-waste, plastic-free, cruelty-free
+3. **DIY Olive Oil Soap**
+   - Custom-made at home with minimal impact
+
+---
+
+*Make smarter, greener choices — one product at a time.* 🌎  
+Built with ❤️ using **Google Gemini**, **LangGraph**, and open-source tools.
