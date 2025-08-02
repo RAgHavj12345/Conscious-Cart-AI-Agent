@@ -20,7 +20,7 @@ Conscious Cart helps consumers make **eco-conscious shopping decisions** using A
 
 ## 🧠 Example Output
 
-```text
+
 Welcome to Conscious Cart! 🛒 Please enter a product URL or a product name: GHAR SOAPS MAGIC SOAP 100 GM
 
 --- 🔬 Analyzing environmental impact... ---
