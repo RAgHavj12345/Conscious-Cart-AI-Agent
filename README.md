@@ -26,9 +26,9 @@ Welcome to Conscious Cart! 🛒 Please enter a product URL or a product name: GH
 --- 🔬 Analyzing environmental impact... ---
 --- ✨ Generating final recommendation... ---
 
-===================================
+=
       Final Recommendation
-===================================
+=
 
 ## Product Analysis 📉
 
