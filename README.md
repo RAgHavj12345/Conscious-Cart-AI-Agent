@@ -5,7 +5,7 @@
 ---
 
 👉 **Try it live on Streamlit:**  
-🔗 [https://conscious-cart-ai-agent-v3.streamlit.app/](https://conscious-cart-ai-agent-v3.streamlit.app/)
+🔗 [https://conscious-cart-ai-agent-v3.streamlit.app/]()
 
 ---
 
