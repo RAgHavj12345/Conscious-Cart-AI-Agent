@@ -4,6 +4,22 @@
 
 ---
 
+👉 **Try it live on Streamlit:**  
+🔗 [https://conscious-cart-ai-agent-v3.streamlit.app/](https://conscious-cart-ai-agent-v3.streamlit.app/)
+
+---
+
+## 🚀 What's New
+
+- 🌐 **Live demo link added**
+- 📦 **Installation & Setup** guides
+- 🔧 **Requirements & Architecture** details
+- 🧪 **Usage & Examples** refined
+- 🧬 **Agent Workflow** clarified
+- 🤝 **Contribution guidelines** included
+
+---
+
 ## 🌿 Key Features
 
 - 🔍 Accepts product names or URLs (e.g., Amazon links)
