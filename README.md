@@ -81,7 +81,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/RAgHavj12345/Conscious-Cart-AI-Agent.git](https://github.com/RAgHavj12345/Conscious-Cart-AI-Agent.git)
+    git clone https://github.com/RAgHavj12345/Conscious-Cart-AI-Agent.git
     cd Conscious-Cart-AI-Agent
     ```
 
@@ -122,7 +122,7 @@ Contributions are welcome! Whether it's improving the scraper, refining the prom
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is licensed under the License - see the `LICENSE` file for details.
 
 ---
 
