@@ -7,6 +7,7 @@ from langchain_core.messages import HumanMessage
 # --- Setup Streamlit UI ---
 st.set_page_config(page_title="Conscious Cart AI", layout="centered")
 st.title("Conscious Cart AI Agent 🛒")
+st.write("by Raghav")
 
 # --- Session State Initialization ---
 if "api_key" not in st.session_state:
@@ -30,12 +31,18 @@ if not st.session_state.api_validated:
         try:
             # Try initializing the LLM to validate key
             llm = load_llm(api_key)  # Try to load LLM
+            # ACTUALLY INVOKE A TEST PROMPT TO VALIDATE KEY
+            _ = llm.invoke([HumanMessage(content="Say hello")])
+
             st.session_state.api_key = api_key
             st.session_state.api_validated = True
             st.success("API key validated successfully!")
         except Exception as e:
-            st.error(f"Invalid API key or connection error: {e}")
+            import traceback
+            st.error(f"API validation failed: {str(e)}")
+            st.exception(e)  # Optional: shows full traceback in Streamlit
             st.stop()
+
 
 # --- Proceed if API is validated ---
 if st.session_state.api_validated:
@@ -99,5 +106,3 @@ if st.session_state.api_validated:
                 recommendation = generate_recommendation(impact)
                 st.markdown("### 📝 Final Recommendation")
                 st.markdown(recommendation)
-
-
